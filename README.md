@@ -1,2 +1,2 @@
 # gradle-skeleton-project
-Project for setting up multimodule project. Use for a quick project setup.
+Project for setting up multi-module project. Use for a quick project setup.
