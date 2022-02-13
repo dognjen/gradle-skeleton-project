@@ -1,1 +1,18 @@
 rootProject.name = "gradle-skeleton-project"
+
+enableFeaturePreview('VERSION_CATALOGS')
+
+dependencyResolutionManagement {
+    repositories {
+        mavenLocal()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+
+    versionCatalogs {
+        apis {
+            from(files('gradle/api.versions.toml'))
+        }
+    }
+}
