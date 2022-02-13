@@ -11,8 +11,8 @@ dependencyResolutionManagement {
     }
 
     versionCatalogs {
-        apis {
-            from(files('gradle/api.versions.toml'))
+        internal {
+            from(files('gradle/organization.versions.toml'))
         }
     }
 }
