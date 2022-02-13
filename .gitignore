@@ -1,0 +1,13 @@
+.gradle
+/build/
+.idea
+
+!gradle-wrapper.jar
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
